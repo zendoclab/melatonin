@@ -55707,22 +55707,25 @@ return A.T(null,r)}})
 return A.U($async$$0,r)},
 $S:20}
 A.a0E.prototype={
-$0(){var s=this.a,r=Date.now(),q=s.f
-q===$&&A.c()
-s.r=B.f.ck(A.bP(0,r-q.a,0).a,1e6)
-s.as=50
-r=s.d
+$0(){var s,r,q=this.a
+q.as=50
+s=q.d
+s===$&&A.c()
+r=s.Q
 r===$&&A.c()
-q=r.Q
-q===$&&A.c()
-if(q===B.C){r.qU(0,0)
-if(s.r<=3){r=s.w
-if(r<0.5){r+=0.05
-s.w=r
-s.x=B.d.h6(r+0.05,0.05)}}r=A.q(B.h,B.j,s.w)
-q=s.d
-s.e=new A.aI(q,new A.e0(r,B.j),t.zh.h("aI<ao.T>"))
-q.bP(0)}},
+if(r===B.C){s.qU(0,0)
+s=Date.now()
+r=q.f
+r===$&&A.c()
+r=B.f.ck(A.bP(0,s-r.a,0).a,1e6)
+q.r=r
+if(r<=3){s=q.w
+if(s<0.5){s+=0.05
+q.w=s
+q.x=B.d.h6(s+0.05,0.05)}}s=A.q(B.h,B.j,q.w)
+r=q.d
+q.e=new A.aI(r,new A.e0(s,B.j),t.zh.h("aI<ao.T>"))
+r.bP(0)}},
 $S:0}
 A.a0I.prototype={
 $0(){var s=this.a,r=s.d
