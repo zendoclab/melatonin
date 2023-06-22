@@ -55658,7 +55658,7 @@ r=q.d
 r.d7(new A.a0G(q))
 q.e=new A.aI(r,new A.e0(s,B.j),t.zh.h("aI<ao.T>"))
 q.d.bP(0)
-s=new A.Wf(new A.a0H(q),1.02,500,3000,1,Date.now())
+s=new A.Wf(new A.a0H(q),1.04,500,3000,1,Date.now())
 s.Id()
 $.abP.b=s
 s=q.d
@@ -55709,10 +55709,6 @@ $S:20}
 A.a0E.prototype={
 $0(){var s,r,q=this.a
 q.as=50
-s=Date.now()
-r=q.f
-r===$&&A.c()
-q.r=B.f.ck(A.bP(0,s-r.a,0).a,1e6)
 s=q.d
 s===$&&A.c()
 r=s.Q
@@ -55721,10 +55717,14 @@ if(r===B.C){s.qU(0,0)
 if(q.r<=3){s=q.w
 if(s<0.5){s+=0.05
 q.w=s
-q.x=B.d.h6(s+0.05,0.05)}}s=A.q(B.h,B.j,q.w)
-r=q.d
-q.e=new A.aI(r,new A.e0(s,B.j),t.zh.h("aI<ao.T>"))
-r.bP(0)}},
+q.x=B.d.h6(s+0.05,0.05)}}s=Date.now()
+r=q.f
+r===$&&A.c()
+q.r=B.f.ck(A.bP(0,s-r.a,0).a,1e6)
+r=A.q(B.h,B.j,q.w)
+s=q.d
+q.e=new A.aI(s,new A.e0(r,B.j),t.zh.h("aI<ao.T>"))
+s.bP(0)}},
 $S:0}
 A.a0I.prototype={
 $0(){var s=this.a,r=s.d
