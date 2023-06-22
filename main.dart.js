@@ -55766,10 +55766,11 @@ k=A.ar(a).p3.e
 if(k==null)k=j
 else k=k.Do(A.q(B.h,B.j,s.w).DM()<0.5?B.h:B.j)
 k=A.a6k("Lv: "+o+", Tm: "+n+", Ps: "+m+"\nSTOPPED: "+(l===B.v),k)
-s=s.as
-l=A.ar(a).p3.e
-o=l==null?j:l.Do(B.h)
-return A.a5e(j,A.agI(A.a([B.K8,r,p,k,A.a6k("shaken: "+s,o)],t.nA),B.C3),q,j,i.a.b,j,j,h.a.a)},
+l=s.as
+s=s.r
+m=A.ar(a).p3.e
+o=m==null?j:m.Do(B.h)
+return A.a5e(j,A.agI(A.a([B.K8,r,p,k,A.a6k("shaken: "+l+", pass: "+s,o)],t.nA),B.C3),q,j,i.a.b,j,j,h.a.a)},
 $S:371}
 A.x1.prototype={
 bV(){this.dt()
